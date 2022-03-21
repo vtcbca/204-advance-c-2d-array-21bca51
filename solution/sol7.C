@@ -8,10 +8,10 @@
    6.exit from menu.	*/
 #include<stdio.h>
 #include<conio.h>
-void prime();
-void palindrome();
-void revnum();
-void eveser();
+void prime();//function decleration for checking prime number 
+void palindrome();//function decleration for checkimg palindrome number
+void revnum();//function decleration for reverse number
+void eveser();//function decleration to print even until nth number 
 void main()
 {
 	int no,i,ch;
